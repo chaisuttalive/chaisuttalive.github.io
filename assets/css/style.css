@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  //background: #213b52;
 }
 
 #header .logo h1 {
@@ -78,12 +78,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+ // color: #fff;
   text-decoration: none;
 }
 
 #header .logo h1 a span, #header .logo h1 a:hover span {
-  color: #fdc134;
+  color:#808080;
+bg:#fdc134;
 }
 
 #header .logo img {
@@ -128,8 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a {
-  background: #213b52;
-  color: #fff;
+  //background: #213b52;
+  color: #213b52;
   border-radius: 50px;
   margin: 2px 0 0 15px;
   padding: 4px 25px 6px 25px;
@@ -346,8 +347,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  //background: #213b52;
+  //background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
 }
 
 #hero h1 {
@@ -355,12 +356,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #d2e0ed;
+  color: #808080;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #fff;
+  color: #000;
   margin-bottom: 30px;
   font-size: 22px;
 }
